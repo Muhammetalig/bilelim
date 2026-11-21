@@ -1,0 +1,8 @@
+:root{--zemin:#fbf7ef;--yazi:#2a2a33;--soluk:#6b6878;--altin:#a87c2a}
+@media (prefers-color-scheme:dark){:root{--zemin:#0f1530;--yazi:#efe9dc;--soluk:#a9a6b8;--altin:#e2bf7b}}
+body{margin:0;background:var(--zemin);color:var(--yazi);font:16px/1.65 -apple-system,system-ui,sans-serif}
+main{max-width:680px;margin:0 auto;padding:40px 16px 64px}
+h1{font-family:Georgia,serif;font-weight:500;font-size:30px;margin:0 0 4px}
+h2{font-size:18px;margin:32px 0 6px;color:var(--altin)}
+p,li{color:var(--yazi)} .alt{color:var(--soluk);font-size:14px}
+a{color:var(--altin)}
